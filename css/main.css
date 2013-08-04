@@ -1,0 +1,31 @@
+.post {
+	background-color: #EEE;
+	border-color: #CCC;
+}
+
+.panel{
+	padding:0;
+}
+
+.panel p{
+	padding: 15px;
+}
+
+.panel-heading {
+	margin: 0px 0px;
+	padding-top: 0px;
+}
+
+.panel-footer {
+	margin: 0px;
+	height: 40px;
+}
+
+.subheader{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.container {
+	max-width: 960px;
+}
