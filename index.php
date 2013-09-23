@@ -6,9 +6,9 @@ require 'rb/rb.php';
 
 R::setup("sqlite:db.db");
 
-$bean 				= R::dispense('kontakter');
+$bean = R::dispense('kontakter');
 $bean['name'] = "Tim";
-$id 					= R::store($bean);
+$id = R::store($bean);
 //echo R::load('kontakter',$id)->telNr;
 
 $app = new \Slim\Slim();
